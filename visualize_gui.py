@@ -5,12 +5,6 @@ import seaborn as sns
 from matplotlib import pyplot as plt
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 
-import plotly.express as px
-import plotly.io as pio
-from plotly.subplots import make_subplots
-from io import BytesIO
-from PIL import Image, ImageTk
-
 df = pd.read_csv("https://raw.githubusercontent.com/csbfx/advpy122-data/master/Pokemon.csv")
 def plot_boxplot1(parent_frame, x, y, title=None):
     for widget in parent_frame.winfo_children():
