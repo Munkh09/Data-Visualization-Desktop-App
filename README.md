@@ -6,11 +6,11 @@
 python 3.11.7
 
 ## Dependencies:
-pip install pandas
-pip install pathlib
-pip install tkinter
-pip install seaborn
-pip install matplotlib
+- pip install pandas
+- pip install pathlib
+- pip install tkinter
+- pip install seaborn
+- pip install matplotlib
 
 ## Run application:
 python visualize_gui.py
